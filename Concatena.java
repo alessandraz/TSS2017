@@ -17,6 +17,10 @@ public class Concatena {
 	String parola3;
 	
 	
+	
+	
+	final char SYMBOL  = '*';
+	
 	public String concatena(){
 		
 		String parola4 = parola1 + "*" + parola2 + "*" + parola3;
