@@ -17,11 +17,14 @@ public class Ripeti {
 	int inputInt;
 				
 	public void stampaStringa(){
+		
 		if(inputInt < 0){
+			
 			System.out.println("ERRORE: numero negativo!");
+			
 		} else {
 			
-		for(int i = 0, a=1; i <= inputInt -1; i++, a++){
+			for(int i = 0, a=1; i <= inputInt -1; i++, a++){
 			
 			System.out.println(a + ") " + inputStringa);
 		}
