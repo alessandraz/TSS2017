@@ -14,7 +14,7 @@ public class TreConsecutivi {
 		int [] numInteri = {5, 5, 5, 3, 29, 11, 95, 30, 86};
 		boolean controllo = false;
 	
-		for(int i = 0; i <= numInteri.length-1; i++){
+		for(int i = 0; i <= 7; i++){
 			
 			if(numInteri[i]==numInteri[i+1] && numInteri[i+1]==numInteri[i+2]){
 				controllo = true;
