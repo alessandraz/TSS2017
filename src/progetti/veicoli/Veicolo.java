@@ -12,6 +12,7 @@ public class Veicolo {
 		
 		this.proprietario = proprietario;
 		this.setMatricola();
+		
 	}
 
 

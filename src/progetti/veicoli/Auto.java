@@ -4,9 +4,11 @@ public class Auto extends Veicolo {
 
 	private String tipo;
 	
+	
 	public Auto(String proprietario, String tipo) {
 		super(proprietario);
 		this.tipo = tipo;
+		
 		
 	}
 
@@ -15,7 +17,7 @@ public class Auto extends Veicolo {
 	}
 	
 
-	
+
 	@Override
 	public String toString(){
 		return  "Proprietario: " + super.getProprietario() + "\n" +
